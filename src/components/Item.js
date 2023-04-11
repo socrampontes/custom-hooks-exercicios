@@ -7,6 +7,8 @@ export function Item(props) {
       <button onClick={props.onDecrement}>-</button>
       <button onClick={props.onReset}>Restaurar</button>
       <button onClick={props.onIncrement}>+</button>
+      <button onClick={props.setValor}>Quantos por vez</button>
+      
     </div>
   );
 }
